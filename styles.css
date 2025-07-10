@@ -6,7 +6,10 @@
 * {
   margin: 0px;
 }
-
+main{
+  padding-left: 141px;
+  padding-right: 160px;
+}
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -67,4 +70,30 @@
 .banner-section {
   text-align: center;
   margin-top: 158px;
+}
+/* Action section */
+
+.action-section-header{
+  font-weight: 700;
+  font-size: 42px;
+  color: #252432;
+  margin-bottom: 23px;
+}
+.action-section-description{
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+  margin-bottom: 23px;
+}
+.action-section-img1{
+  border-radius: 48px;
+  height: 328px;
+  width: 403px;
+}
+.action-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 116px;
+  margin-bottom: 116px;
 }
