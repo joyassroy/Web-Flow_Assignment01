@@ -40,6 +40,16 @@ main{
   cursor: pointer;
   font-size: 20px;
 }
+input, textarea {
+  width: 300px; /* or use 100% if inside a container */
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #D6DDED;
+}
 
 /* Nav Banner Section */
 .nav-banner-page {
@@ -201,6 +211,7 @@ main{
   border: 0.1px solid rgba(196, 180, 180, 0.5);
   padding-top: 71px;
   padding-bottom: 71px;
+  margin-bottom: 93px;
 }
 .focus-header{
   font-weight: 700;
@@ -216,4 +227,29 @@ main{
 .focus-img{
   border-radius: 48px;
   margin-top: 20px;
+}
+/* Get in touch section */
+
+.get-in-touch-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 71px;
+}
+.git-header{
+  font-weight: 700;
+  font-size: 97px;
+  color: #000000;
+}
+form label{
+  font-weight: 500;
+  font-size: 18px;
+  
+}
+form input,textarea{
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.5);
 }
